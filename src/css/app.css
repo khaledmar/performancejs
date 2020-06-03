@@ -1,0 +1,16 @@
+/* Evitar import pois o carregamento se torna sincrono
+@import "https://fonts.googleapis.com/css?family=Roboto&display=swap";
+*/
+body{
+    font-family: "Roboto", "sans-serif";
+}
+
+.title{
+    position: relative;
+    transform: translateX(0px);
+    transition: all 2s linear;
+}
+
+.title.animate{
+    transform: translateX(500px);
+}
